@@ -39,7 +39,7 @@
 }
 
 .logo1 {
-  width: 50vw;
+  width: 50vh;
   animation-name: logoanimated1;
   animation-timing-function: ease;
   animation-duration: 10s;
@@ -48,7 +48,7 @@
 .website {
   font-family: sans-serif;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 15px;
   color: gray;
   position: fixed;
   bottom: 0;

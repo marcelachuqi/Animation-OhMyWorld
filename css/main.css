@@ -46,16 +46,22 @@
 }
 
 .website {
+  text-decoration: none;
+  text-align: center;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 15px;
   color: gray;
   position: fixed;
   bottom: 0;
-  padding: 0;
-  margin: 0;
   margin-bottom: 20px;
   animation-name: logoanimated1;
   animation-timing-function: ease;
   animation-duration: 10s;
+}
+.webname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

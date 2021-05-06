@@ -12,7 +12,7 @@
     visibility: hidden;
   }
   to {
-    transform: translatey(50vh) scale(4);
+    transform: translatey(40vh) scale(4);
     visibility: visible;
     opacity: 1%;
   }
@@ -39,7 +39,7 @@
 }
 
 .logo1 {
-  width: 100vw;
+  width: 50vw;
   animation-name: logoanimated1;
   animation-timing-function: ease;
   animation-duration: 10s;
@@ -47,8 +47,9 @@
 
 .website {
   font-family: sans-serif;
-  font-size: 19px;
-  color: darkslategrey;
+  font-weight: 200;
+  font-size: 25px;
+  color: gray;
   position: fixed;
   bottom: 0;
   padding: 0;
